@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, serif;
+    background-color: beige;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .container{
+        text-align: center;
+    }
+}
+
+.row{
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.contact-info{
+    margin-top: 20px;
+    line-height: 30%;
+}
+
+h3{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: square;
+}
+li{
+    padding-top: 15px;
+}
+
+.reference{
+    text-align: center;
+}
+.reference img{
+    width: 80px;
+}
